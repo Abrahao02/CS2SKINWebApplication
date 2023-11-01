@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CS2SKINAppWeb.NovaPasta3
+namespace CS2SKINAppWeb.Models
 {
     public class Skins
     {

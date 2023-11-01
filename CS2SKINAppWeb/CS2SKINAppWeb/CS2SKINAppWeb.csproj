@@ -11,25 +11,25 @@
     <Compile Remove="NovaPasta2\**" />
     <Compile Remove="NovaPasta3\**" />
     <Compile Remove="NovaPasta\**" />
-    <Compile Remove="wwwroot\NovaPasta1\NovaPasta\**" />
+    <Compile Remove="wwwroot\Imagens\NovaPasta\**" />
     <Compile Remove="wwwroot\NovaPasta\**" />
     <Content Remove="NovaPasta1\**" />
     <Content Remove="NovaPasta2\**" />
     <Content Remove="NovaPasta3\**" />
     <Content Remove="NovaPasta\**" />
-    <Content Remove="wwwroot\NovaPasta1\NovaPasta\**" />
+    <Content Remove="wwwroot\Imagens\NovaPasta\**" />
     <Content Remove="wwwroot\NovaPasta\**" />
     <EmbeddedResource Remove="NovaPasta1\**" />
     <EmbeddedResource Remove="NovaPasta2\**" />
     <EmbeddedResource Remove="NovaPasta3\**" />
     <EmbeddedResource Remove="NovaPasta\**" />
-    <EmbeddedResource Remove="wwwroot\NovaPasta1\NovaPasta\**" />
+    <EmbeddedResource Remove="wwwroot\Imagens\NovaPasta\**" />
     <EmbeddedResource Remove="wwwroot\NovaPasta\**" />
     <None Remove="NovaPasta1\**" />
     <None Remove="NovaPasta2\**" />
     <None Remove="NovaPasta3\**" />
     <None Remove="NovaPasta\**" />
-    <None Remove="wwwroot\NovaPasta1\NovaPasta\**" />
+    <None Remove="wwwroot\Imagens\NovaPasta\**" />
     <None Remove="wwwroot\NovaPasta\**" />
   </ItemGroup>
 
@@ -37,15 +37,15 @@
     <Compile Remove="NovaPasta4\Skins.cs" />
     <Compile Remove="Pages\Index - Cópia.cshtml.cs" />
     <Compile Remove="Pages\Index1.cshtml.cs" />
-    <Compile Remove="Service\Skins.cs" />
+    <Compile Remove="Services\Skins.cs" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="Pages\Index - Cópia.cshtml" />
     <Content Remove="Pages\Index1.cshtml" />
     <Content Remove="wwwroot\css\bootstrap.min.css" />
-    <Content Remove="wwwroot\NovaPasta1\dragonlore.ghtml" />
-    <Content Remove="wwwroot\NovaPasta1\when-i-saw-the-new-cs2-logo-this-instantly-came-to-my-mind-v0-kenzj6pcmjpa1.webp" />
+    <Content Remove="wwwroot\Imagens\dragonlore.ghtml" />
+    <Content Remove="wwwroot\Imagens\when-i-saw-the-new-cs2-logo-this-instantly-came-to-my-mind-v0-kenzj6pcmjpa1.webp" />
   </ItemGroup>
 
 </Project>

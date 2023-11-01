@@ -1,4 +1,4 @@
-using CS2SKINAppWeb.NovaPasta3;
+using CS2SKINAppWeb.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CS2SKINAppWeb.Pages
