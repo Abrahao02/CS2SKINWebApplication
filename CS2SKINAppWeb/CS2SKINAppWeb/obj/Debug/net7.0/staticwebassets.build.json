@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d2AZ66HqKd2L62nXWkNpusCDiMSzh2kaHwyCpPw8XCU=",
+  "Hash": "sr/RtNugj4pRl2Rxu37bUEM67WZcENNn8baY7IMtHAg=",
   "Source": "CS2SKINAppWeb",
   "BasePath": "_content/CS2SKINAppWeb",
   "Mode": "Default",
@@ -1171,6 +1171,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\NovaPasta1\\luvaSpearmint.webp"
+    },
+    {
+      "Identity": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\NovaPasta1\\M4A4HOWL.webp",
+      "SourceId": "CS2SKINAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\",
+      "BasePath": "_content/CS2SKINAppWeb",
+      "RelativePath": "NovaPasta1/M4A4HOWL.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NovaPasta1\\M4A4HOWL.webp"
     }
   ]
 }

@@ -1,11 +1,47 @@
 ﻿@page
 @model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
 
-<div class="text-center">
-    <h1 class="display-4">Venda e Compra de SKIN CS2</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 
+<div class="row justify-content-md-center">
+
+        @foreach (var item in Model.ListaSkins)
+    {
+        <div class="card col-3 m-3">
+            <img src="@item.ImagemUri" class="p-3" style="border-radius: 25px">
+            <div class="card-body">
+                <h5 class="card-title">@item.Nome</h5>
+                <p class="card-text">@item.Condicao</p>
+                <p class="card-text">@item.Descricao</p>
+                <a class="btn btn-primary" asp-page="/Comprar" asp-route-id="@item.SkinsID">Comprar</a>
+            </div>
+        </div>
+    }
+    
+    <footer>
+        <div>
+            <ul class="pagination pagination-lg">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#">&laquo;</a>
+                </li>
+                <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">4</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">5</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link" href="#">&raquo;</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </div>

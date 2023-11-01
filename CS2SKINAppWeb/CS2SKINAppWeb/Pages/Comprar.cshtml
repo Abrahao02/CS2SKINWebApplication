@@ -2,114 +2,29 @@
 @model CS2SKINAppWeb.Pages.ComprarModel
 @{
 }
-<div class="container d-flex flex-column justify-content-center align-items-center">
-    <h1 class="text-center">Compra SKIN segura e rápida!</h1>
-    </div>
-
-
+<h2 class="my-3">@Model.SKIN.Nome</h2>
 
 <div class="row">
 
-    <div class="col-3">
-        <div class="card mb-3">
-            <h3 class="card-header">AWP | Dragon Lore</h3>
-            <div class="card-body">
-                <h5 class="card-title">Raridade: Oculto Exterior: Testada em Campo </h5>
-                <h6 class="card-subtitle text-muted">Float: 0.27794274</h6>
-            </div>
-            <img src="/NovaPasta1/DragonLore.webp" class="card-img-top" alt="DragonLore">
-            </svg>
-            <div class="card-body">
-                <p class="card-text">"Dragon Lore" é uma das skin mais raras do jogo. Ela é uma das skins mais cobiçadas e valiosas do jogo devido à sua raridade e ao seu design impressionante.</p>
-            </div>
-            <div class="card-footer text-muted">
-                <a href="#" class="card-link">R$:40.000 Comprar</a>
-            </div>
-        </div>
+    <div class="col-4">
+        <img class="img-fluid rounded" src="@Model.SKIN.ImagemUri" />
     </div>
 
-    <div class="col-3">
-        <div class="card mb-3">
-            <h3 class="card-header">★ Moto Gloves | Spearmint </h3>
-            <div class="card-body">
-                <h5 class="card-title">Raridade: Extraordinário Exterior: Field-Tested</h5>
-                <h6 class="card-subtitle text-muted">Float: 0.29783135</h6>
-            </div>
-            <img src="/NovaPasta1/luvaSpearmint.webp" class="card-img-top" alt="DragonLore">
-            </svg>
-            <div class="card-body">
-                <p class="card-text">Essa skin é conhecida por seu design exclusivo e atraente, que combina cores e padrões inspirados em hortelã, dando a elas uma aparência fresca e estilosa.</p>
-            </div>
-            <div class="card-footer text-muted">
-                <a href="#" class="card-link">R$: 20.999 Comprar</a>
-            </div>
-        </div>
+    <div class="col-6">
+        <h4 class="my-3">Sobre:</h4>
+        <p>@Model.SKIN.Descricao</p>
+        <h4 class="my-3">Mais Info:</h4>
+        <ul>
+            <li><label asp-for="SKIN.Raridade"></label>: @Model.SKIN.Raridade</li>
+            <li><label asp-for="SKIN.Condicao"></label>: @Model.SKIN.Condicao</li>
+            <li><label asp-for="SKIN.Float"></label>: @Model.SKIN.Float</li>
+            <li><label asp-for="SKIN.DataCadastro"></label>: @Model.SKIN.DataCadastro</li>
+            <li><label asp-for="SKIN.Preco"></label>: @Html.DisplayFor(model => model.SKIN.Preco)</li>
 
+        </ul>
+        <a class="btn my-3 btn-primary">@Html.DisplayFor(model => model.SKIN.Preco) Finalizar Compra</a>
     </div>
 
-    <div class="col-3">
-        <div class="card mb-3">
-            <h3 class="card-header">AK-47 | Hydroponic</h3>
-            <div class="card-body">
-                <h5 class="card-title">Raridade: Secreto Exterior: Factory New</h5>
-                <h6 class="card-subtitle text-muted">Float: 0.05093573</h6>
-            </div>
-            <img src="/NovaPasta1/aK-47hydroponic.webp" class="card-img-top" alt="DragonLore">
-            </svg>
-            <div class="card-body">
-                <p class="card-text">A "Hydroponic" é conhecida por seu design único, que geralmente apresenta um padrão de folhas de maconha (cannabis) em tons de verde e preto. O nome "Hydroponic" é uma referência à técnica de cultivo hidropônico, que é frequentemente usada no cultivo de plantas, incluindo a cannabis.</p>
-            </div>
-            <div class="card-footer text-muted">
-                <a href="#" class="card-link">R$: 11.999 Comprar</a>
-            </div>
-        </div>
-
-    </div> 
-
-    <div class="col-3">
-        <div class="card mb-3">
-            <h3 class="card-header">★ Karambit | Lore </h3>
-            <div class="card-body">
-                <h5 class="card-title">Raridade: Oculto Exterior: Factory New</h5>
-                <h6 class="card-subtitle text-muted">Float: 0.01360608</h6>
-            </div>
-            <img src="/NovaPasta1/Karambitlore.webp" class="card-img-top" alt="KarambitLore">
-            </svg>
-            <div class="card-body">
-                <p class="card-text">A "Lore" é famosa por seu tema de design mítico, que geralmente apresenta motivos relacionados à mitologia e lendas. O nome "Lore" sugere que a faca está imbuida de histórias e narrativas míticas. </p>
-            </div>
-            <div class="card-footer text-muted">
-                <a href="#" class="card-link">R$: 20.999 Comprar</a>
-            </div>
-        </div>
 </div>
-
-    <footer>
-        <div>
-            <ul class="pagination pagination-lg">
-                <li class="page-item disabled">
-                    <a class="page-link" href="#">&laquo;</a>
-                </li>
-                <li class="page-item active">
-                    <a class="page-link" href="#">1</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="#">2</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="#">3</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="#">4</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="#">5</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="#">&raquo;</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
 
 

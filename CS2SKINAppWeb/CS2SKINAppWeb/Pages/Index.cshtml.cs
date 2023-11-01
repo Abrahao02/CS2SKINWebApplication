@@ -1,20 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CS2SKINAppWeb.NovaPasta3;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CS2SKINAppWeb.Pages
+namespace CS2SKINAppWeb.Pages;
+
+public class IndexModel : PageModel
 {
-    public class IndexModel : PageModel
+    public IList<Skins> ListaSkins { get; private set; }
+
+    public void OnGet()
     {
-        private readonly ILogger<IndexModel> _logger;
-
-        public IndexModel(ILogger<IndexModel> logger)
-        {
-            _logger = logger;
-        }
-
-        public void OnGet()
-        {
-
-        }
+        var servico = new SkinsService();
+        ListaSkins = servico.ObterTodos();
     }
 }
