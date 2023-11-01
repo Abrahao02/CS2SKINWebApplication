@@ -27,5 +27,6 @@ namespace CS2SKINAppWeb.NovaPasta3
         public string Condicao { get; internal set; }
 
         public string Float { get; internal set; }
+        public int Pattern { get; internal set; }
     }
 }

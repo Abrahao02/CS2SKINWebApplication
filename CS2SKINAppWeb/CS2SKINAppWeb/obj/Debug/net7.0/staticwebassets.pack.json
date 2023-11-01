@@ -25,8 +25,16 @@
       "PackagePath": "staticwebassets\\NovaPasta1\\aK-47hydroponic.webp"
     },
     {
+      "Id": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\NovaPasta1\\hyperbeast.webp",
+      "PackagePath": "staticwebassets\\NovaPasta1\\hyperbeast.webp"
+    },
+    {
       "Id": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\NovaPasta1\\luvaSpearmint.webp",
       "PackagePath": "staticwebassets\\NovaPasta1\\luvaSpearmint.webp"
+    },
+    {
+      "Id": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\NovaPasta1\\medusa.webp",
+      "PackagePath": "staticwebassets\\NovaPasta1\\medusa.webp"
     },
     {
       "Id": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\css\\bootstrap.css",

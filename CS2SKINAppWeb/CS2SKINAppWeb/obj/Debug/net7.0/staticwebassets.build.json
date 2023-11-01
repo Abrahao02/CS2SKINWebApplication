@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sr/RtNugj4pRl2Rxu37bUEM67WZcENNn8baY7IMtHAg=",
+  "Hash": "IcpdoVbFdzcGZfJlFTDWexc5rdva3o8S7lHJyaIkBfw=",
   "Source": "CS2SKINAppWeb",
   "BasePath": "_content/CS2SKINAppWeb",
   "Mode": "Default",
@@ -1139,6 +1139,23 @@
       "OriginalItemSpec": "wwwroot\\NovaPasta1\\DragonLore.webp"
     },
     {
+      "Identity": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\NovaPasta1\\hyperbeast.webp",
+      "SourceId": "CS2SKINAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\",
+      "BasePath": "_content/CS2SKINAppWeb",
+      "RelativePath": "NovaPasta1/hyperbeast.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NovaPasta1\\hyperbeast.webp"
+    },
+    {
       "Identity": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\NovaPasta1\\Karambitlore.webp",
       "SourceId": "CS2SKINAppWeb",
       "SourceType": "Discovered",
@@ -1188,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\NovaPasta1\\M4A4HOWL.webp"
+    },
+    {
+      "Identity": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\NovaPasta1\\medusa.webp",
+      "SourceId": "CS2SKINAppWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Faculdade\\VisualStudioC#\\CS2SKINWebApplication\\CS2SKINAppWeb\\CS2SKINAppWeb\\wwwroot\\",
+      "BasePath": "_content/CS2SKINAppWeb",
+      "RelativePath": "NovaPasta1/medusa.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\NovaPasta1\\medusa.webp"
     }
   ]
 }
