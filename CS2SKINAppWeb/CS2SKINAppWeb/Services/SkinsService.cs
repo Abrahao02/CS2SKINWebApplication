@@ -1,10 +1,17 @@
 ﻿using CS2SKINAppWeb.Models;
 
-public class SkinsService
+namespace CS2SKINAppWeb.Services;
+
+public class SkinsService : ISkinsService
 {
-    public IList<Skins> ObterTodos()
+    private IList<Skins> _skins;
+
+    public SkinsService()
+        => CarregarListaInicial();
+
+    private void CarregarListaInicial()
     {
-         return new List<Skins>()
+        _skins = new List<Skins>()
          {
                 new Skins
                 {
@@ -85,11 +92,40 @@ public class SkinsService
                     Preco = 13685.68,
                 },
          };
-
-        
     }
+
+    public IList<Skins> ObterTodos()
+        => _skins;
+
     public Skins Obter(int id)
     {
-        return ObterTodos().SingleOrDefault(item => item.SkinsID == id);
+        return _skins.SingleOrDefault(item => item.SkinsID == id);
+    }
+
+    public void Incluir(Skins skins)
+    {
+        var proximoNumero = _skins.Max(item => item.SkinsID) + 1;
+        skins.SkinsID = proximoNumero;
+        _skins.Add(skins);
+    }
+
+    public void Alterar(Skins skins)
+    {
+        var skinsEncontrado = Obter(skins.SkinsID);
+        skinsEncontrado.Nome = skins.Nome;
+        skinsEncontrado.Preco = skins.Preco;
+        skinsEncontrado.ImagemUri = skins.ImagemUri;  
+        skinsEncontrado.Raridade = skins.Raridade;
+        skinsEncontrado.Condicao = skins.Condicao;  
+        skinsEncontrado.Float = skins.Float;
+        skinsEncontrado.Pattern = skins.Pattern;
+        skinsEncontrado.Descricao = skins.Descricao;
+        skinsEncontrado.DataCadastro = skins.DataCadastro;
+    }
+
+    public void Excluir(int id)
+    {
+        var skinsEncontrado = Obter(id);
+        _skins.Remove(skinsEncontrado);
     }
 }

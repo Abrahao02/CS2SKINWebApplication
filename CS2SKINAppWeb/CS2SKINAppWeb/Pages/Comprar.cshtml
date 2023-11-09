@@ -1,4 +1,4 @@
-﻿@page
+﻿@page "/Comprar/{slug}/{id}"
 @model CS2SKINAppWeb.Pages.ComprarModel
 @{
 }
@@ -24,6 +24,8 @@
 
         </ul>
         <a class="btn my-3 btn-primary">@Html.DisplayFor(model => model.SKIN.Preco) Finalizar Compra</a>
+        <a class="btn my-3 btn-primary" 
+        asp-page="Edit" asp-route-id="@Model.SKIN.SkinsID">Editar</a>
     </div>
 
 </div>

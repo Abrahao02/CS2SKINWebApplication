@@ -28,8 +28,12 @@
                             <a class="nav-link" asp-page="/Quemsomos">Quem-somos</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" asp-page="/Criar">Anunciar</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" asp-page="/Privacy">Privacidade</a>
                         </li>
+
                   
                     </ul>
                     <form class="d-flex">
@@ -57,5 +61,6 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
+    @await Component.InvokeAsync("NToastNotify")
 </body>
 </html>

@@ -12,8 +12,12 @@
                 <h5 class="card-title">@item.Nome</h5>
                 <p class="card-text">@item.Condicao</p>
                 <p class="card-text">@item.Descricao</p>
-                <a class="btn btn-primary" asp-page="/Comprar" asp-route-id="@item.SkinsID">Comprar</a>
+                
             </div>
+            <a class="btn btn-primary mt-3 mb-3"
+               asp-page="/Comprar"
+               asp-route-id="@item.SkinsID"
+               asp-route-slug="@item.NomeSlug">Comprar</a>
         </div>
     }
     

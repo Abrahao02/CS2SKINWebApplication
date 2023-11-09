@@ -35,17 +35,25 @@
 
   <ItemGroup>
     <Compile Remove="NovaPasta4\Skins.cs" />
+    <Compile Remove="Pages\Incluir.cshtml.cs" />
     <Compile Remove="Pages\Index - Cópia.cshtml.cs" />
     <Compile Remove="Pages\Index1.cshtml.cs" />
+    <Compile Remove="Pages\Index2.cshtml.cs" />
     <Compile Remove="Services\Skins.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Pages\Incluir.cshtml" />
     <Content Remove="Pages\Index - Cópia.cshtml" />
     <Content Remove="Pages\Index1.cshtml" />
+    <Content Remove="Pages\Index2.cshtml" />
     <Content Remove="wwwroot\css\bootstrap.min.css" />
     <Content Remove="wwwroot\Imagens\dragonlore.ghtml" />
     <Content Remove="wwwroot\Imagens\when-i-saw-the-new-cs2-logo-this-instantly-came-to-my-mind-v0-kenzj6pcmjpa1.webp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NToastNotify" Version="8.0.0" />
   </ItemGroup>
 
 </Project>
