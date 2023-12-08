@@ -7,6 +7,8 @@ namespace CS2SKINAppWeb.Pages;
 public class IndexModel : PageModel
 {
     private ISkinsService _service;
+
+    
     public IndexModel(ISkinsService skinsService)
     {
         _service = skinsService;

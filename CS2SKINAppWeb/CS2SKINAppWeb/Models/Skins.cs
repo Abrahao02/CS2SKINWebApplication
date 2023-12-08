@@ -14,7 +14,7 @@ public class Skins
 
     [Display(Name = "Descrição")]
     [Required(AllowEmptyStrings = false, ErrorMessage = "Campo 'Descrição' obrigatório.")]
-    [StringLength(100, MinimumLength = 50, ErrorMessage = "Campo 'NoDescriçãome' deve conter entre 50 e 100 caracteres")]
+    [StringLength(550, MinimumLength = 50, ErrorMessage = "Campo 'NoDescriçãome' deve conter entre 50 e 100 caracteres")]
     public string Descricao { get; set; }
 
     [Display(Name = "Caminho da Imagem")]

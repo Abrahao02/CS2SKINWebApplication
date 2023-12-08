@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CS2SKINAppWeb.Pages
 {
-    public class PrivacyModel : PageModel
+    public class PrivacyModel 
     {
         private readonly ILogger<PrivacyModel> _logger;
 

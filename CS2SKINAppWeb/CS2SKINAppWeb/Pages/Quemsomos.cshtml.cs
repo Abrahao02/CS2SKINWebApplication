@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CS2SKINAppWeb.Pages
 {
-    public class QuemsomosModel : PageModel
+    public class QuemsomosModel 
     {
         public void OnGet()
         {

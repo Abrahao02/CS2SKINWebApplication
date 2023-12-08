@@ -1,11 +1,13 @@
 using CS2SKINAppWeb.Models;
 using CS2SKINAppWeb.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using NToastNotify;
 
 namespace CS2SKINAppWeb.Pages
 {
+    [Authorize]
     public class CriarModel : PageModel
     {
         private ISkinsService _service;
